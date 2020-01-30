@@ -6,7 +6,8 @@
     margin: 0 auto;
 }
 
-img {width: 1000px;
+img {width: 960px;
     margin: 0 auto;
+    max-width: 960px;
 
 }
