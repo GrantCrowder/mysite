@@ -6,4 +6,6 @@
     margin: 0 auto;
 }
 
-img {width: 960px;}
+img {width: 960px;
+
+max-width: 960px;}
