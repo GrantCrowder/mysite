@@ -9,7 +9,22 @@ return gulp.src('./scss/**/*.scss')
 
 .pipe(gulp.dest('./css'))
 
+
+
+}
+
+
 exports.style = style;
 
+
+function watch() {
+
+browserSync.init({
+baseDir: "./"
+
+});
+
+gulp.watch('./scss/*/*.scss', style)
+gulp.watch('./*.html').on('change', browserSync.reload);
 
 }
