@@ -9,6 +9,8 @@ return gulp.src('./scss/**/*.scss')
 
 .pipe(gulp.dest('./css'))
 
+.pipe(browserSync.stream());
+
 
 
 }
@@ -20,7 +22,10 @@ return gulp.src('./scss/**/*.scss')
 function watch() {
 
 browserSync.init({
-baseDir: "./"
+
+server: {
+baseDir: './'
+}
 
 });
 
