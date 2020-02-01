@@ -14,7 +14,7 @@ return gulp.src('./scss/**/*.scss')
 }
 
 
-exports.style = style;
+
 
 
 function watch() {
@@ -26,5 +26,8 @@ baseDir: "./"
 
 gulp.watch('./scss/*/*.scss', style)
 gulp.watch('./*.html').on('change', browserSync.reload);
-
+gulp.watch('./js/*/*.js', style)
 }
+
+exports.style = style;
+exports.watch = watch;
