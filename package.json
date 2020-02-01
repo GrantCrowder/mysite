@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/GrantCrowder/mysite/issues"
   },
-  "homepage": "https://github.com/GrantCrowder/mysite#readme"
+  "homepage": "https://github.com/GrantCrowder/mysite#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
 }
