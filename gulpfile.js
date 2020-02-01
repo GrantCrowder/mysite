@@ -29,9 +29,9 @@ baseDir: './'
 
 });
 
-gulp.watch('./scss/*/*.scss', style)
+gulp.watch('./scss/*/*.scss', style);
 gulp.watch('./*.html').on('change', browserSync.reload);
-gulp.watch('./js/*/*.js', style)
+gulp.watch('./js/*/*.js', style);
 }
 
 exports.style = style;
