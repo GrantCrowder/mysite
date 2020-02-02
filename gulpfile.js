@@ -31,6 +31,7 @@ baseDir: './'
 
 gulp.watch('./scss/*/*.scss', style);
 gulp.watch('./*.html').on('change', browserSync.reload);
+gulp.watch('./*.css').on('change', browserSync.reload);
 gulp.watch('./js/*/*.js', style);
 gulp.watch('./css/*/*.css', style);
 }
