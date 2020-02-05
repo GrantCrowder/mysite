@@ -56,3 +56,9 @@ box-sizing:border-box;}
         width: 100%;
     }
 }
+
+nav {
+
+    margin:20px;
+    box-sizing:border-box;
+}
