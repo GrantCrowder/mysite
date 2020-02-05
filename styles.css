@@ -10,7 +10,7 @@ body {
 .hello {color:purple;}
 
 .wrapper {
-
+font-family: Arial, Helvetica, sans-serif;
     max-width: 960px;
     margin: 0 auto;
 
@@ -19,7 +19,7 @@ body {
 
 p {
 
-    color:rgb(0, 255, 13);
+    color:rgb(0, 0, 0);
 
 
 }
